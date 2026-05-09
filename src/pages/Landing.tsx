@@ -4,10 +4,10 @@ import Navigation from '@/components/Navigation'
 import Footer from '@/components/Footer'
 import FloatingButton from '@/components/FloatingButton'
 import AboutModal from '@/components/AboutModal'
-import HeroSection from '../sections/HeroSection'
-import LiveFeedPreviewSection from '../sections/LiveFeedPreviewSection'
-import FeaturesSection from '../sections/FeaturesSection'
-import RitualInfrastructureSection from '../sections/RitualInfrastructureSection'
+import HeroSection from '../sections/HeroSection.tsx'
+import LiveFeedPreviewSection from '../sections/LiveFeedPreviewSection.tsx'
+import FeaturesSection from '../sections/FeaturesSection.tsx'
+import RitualInfrastructureSection from '../sections/RitualInfrastructureSection.tsx'
 
 export default function Landing() {
   const [aboutOpen, setAboutOpen] = useState(false)
